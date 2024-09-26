@@ -5,6 +5,15 @@ This project demonstrates an image compression method for 600x600 RGB images by 
 
 ## Overview
 The compression works by dividing the image into blocks of 25 pixels and fitting a cubic Bézier curve to each block. For each block, only 4 control points (P₀, P₁, P₂, and P₃) are stored. These control points are used to reconstruct the pixel values by calculating the curve's t values, providing an efficient way to encode and decode the image.
+## Installation
+- **Clone the repository**
+  
+  ```
+  git clone https://github.com/Nischal-Karki-1/Image-Compression-with-Bezier-Curves.git
+   ```
+- **Open and Run the Notebook**
+  Open the provided Jupyter notebook in your preferred environment and experiment compression with different images.
+
 
 ## Features
 - **Efficient Storage:** Instead of storing each pixel, we store 4 control points per 25-pixel block.
@@ -35,4 +44,14 @@ The compression works by dividing the image into blocks of 25 pixels and fitting
    <div align = "center" >
   <img width = "350" alt = "Fitting" src="https://github.com/user-attachments/assets/5feb5492-9560-45f6-ae48-7ce4544991df"/>
   </div>
-Decompression: The pixel values are reconstructed using the stored control points and calculated t values.
+  
+- **Decompression:** The pixel values are reconstructed using the stored control points and calculated t values.
+
+ <div align = "center" >
+  <img width = "500" alt = "Decompression" src="https://github.com/user-attachments/assets/45071dad-8c25-4523-9e1c-9e53818a8a0f"/>
+  </div>
+
+  ## Screenshots
+
+  
+
