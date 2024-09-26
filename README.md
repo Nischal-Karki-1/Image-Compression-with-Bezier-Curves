@@ -52,6 +52,9 @@ The compression works by dividing the image into blocks of 25 pixels and fitting
   </div>
 
   ## Screenshots
+![_ (4)](https://github.com/user-attachments/assets/2d3b3906-e78b-4b72-b411-39c6768816ab)
+![_ (5)](https://github.com/user-attachments/assets/edeb8a81-0792-4202-bd67-38d4849796b2)
+![_ (6)](https://github.com/user-attachments/assets/6f9abaa2-4b21-41c4-88be-00785a7468af)
 
   
 
